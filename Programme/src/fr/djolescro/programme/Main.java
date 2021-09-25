@@ -3,8 +3,14 @@ package fr.djolescro.programme;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
+		// Variables
+		double grandeBase = 20;
+		double petiteBase = 15;
+		double hauteur = 7;
+
+		// Affichage
+		System.out.println("L'aire du trapeze est égal a : " + Formule.aireTrapeze(grandeBase, petiteBase, hauteur));
 	}
 
 }
