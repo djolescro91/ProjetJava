@@ -10,7 +10,7 @@ public class Main {
 		double hauteur = 7;
 
 		// Affichage
-		System.out.println("L'aire du trapeze est Ã©gal a : " + Formule.aireTrapeze(grandeBase, petiteBase, hauteur));
+		System.out.println("L'aire du trapeze est égal a : " + String.format("%.2f", Formule.aireTrapeze(grandeBase, petiteBase, hauteur)));
 	}
 
 }
